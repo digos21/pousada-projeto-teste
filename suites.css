@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    border: none;
+    scroll-behavior: smooth;
+    outline: none;
+}
+/* CORES - PROJECT -------------------------------------------- 
+
+60% - COR PRINCIPAL  - #F1C721
+30% - COR SECUNDÁRIA -
+10% - COR DETALHES   - 
+
+CORES PARA EFEITOS 
+PRINCIPAL            - 
+TEXTOS               - 
+
+ ------------------------------------------------------------ */
+:root {
+    --bg-principal: #68A2C8;
+    --bg-secundario: #F1C721;
+    --text-color-primario: #042437;
+    --text-color-secundario: #5b5c5c;
+    --text-color-terceiro: #fff;
+    --bg-color: #CBECDC;
+    --second-bg-color: #F1C721;
+    --text-color: #042437;
+    --main-color: #68A2C8;
+    --btn-principal: #F1C721;
+    --btn-hover: #D7AB01;
+
+}
+
+/* FONT SIZE - PROJECT ---------------------------------------- 
+
+HEADING H1 96px = 6rem
+HEADING H2 
+HEADING H2 
+HEADING H3
+SUBTITULO 1 
+SUBTITULO 2 
+SPAN 
+TEXTO 1 - 16px
+TEXTO 2
+TEXTO 3
+
+ ------------------------------------------------------------ */
+body {
+    color: var(--text-color);
+}
+
+.header {
+
+    width: 100%;
+    height: 60px;
+    padding: 2rem 9%;
+    background: var(--bg-principal);
+    border-bottom: 1px solid rgba(166, 166, 166, 0.242);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    
+
+}
+
+
+.logo {
+    width: 83px;
+    height: auto;
+    cursor: pointer;
+    transition: 0.3s ease;
+    position: relative;
+    top: 3px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+
+}
+
+.navbar a {
+    font-size: 1rem;
+    color: var(--text-color);
+    margin-left: 4rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: var(--text-color-terceiro);
+    border-bottom: 3px solid var(--text-color-terceiro);
+
+}
+
+/* ICONE HAMBURGUER PARA MENU MOBILE */
+#menu-icon {
+    font-size: 2rem;
+    color: var(--text-color);
+    display: none;
+}
+
+section {
+    min-height: 100vh;
+    padding: 2rem 9% 2rem;
+}
+
+.section-slide {
+
+}
+
+.section-slide p {
+    margin-bottom: 2rem;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem 2.8rem;
+    background: var(--bg-secundario);
+    border-radius: 0.2em;
+    font-size: 1rem;
+    color: var(--text-color-primario);
+    letter-spacing: 0.08rem;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+
+
+.btn:hover {
+
+    color: var(--text-color-terceiro);
+    background: var(--btn-hover);
+}
+
+.heading {
+    text-align: center;
+    font-size: 3.25rem;
+    border-bottom: 2px solid var(--bg-principal);
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.cardBox-container {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 1.4rem;
+  }
+
+  .cardBox-slider {
+    max-width: 600px;
+  }
+  .cardBox-slider img {
+    width: 100%;
+  }
+
+  .cardBox-suite {
+    max-width: 600px;
+  }
+  .cardBox-suite h3 {
+    margin-bottom: 0.5rem;
+  }
+  .cardBox-suite p {
+    margin-bottom: 1rem;
+  }
+  .cardBox-suite ul {
+    margin-bottom: 1rem;
+  }
+  .cardBox-suite li {
+    list-style: none;
+
+
+  }
+
+/* Rodapé --------------------------------------------------------------------------------  */
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    background-color: var(--bg-principal);
+}
+
+.footer .social {
+    text-align: center;
+    padding-bottom: 25px;
+    color: black;
+}
+
+.footer .social a {
+    font-size: 24px;
+    color: var(--text-color);
+    border: 2px solid var(--bg-color);
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    box-shadow: inset 0 0 10px var(--bg-color), 0 0 25px var(--bg-color);
+    transition: 0.3s ease;
+}
+
+.footer .social a:hover {
+    transform: scale(1.2) translateY(-10px);
+    color: var(--bg-color);
+    border: 2px solid var(--bg-color);
+}
+
+.footer ul {
+    margin-top: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.footer ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.footer ul li a {
+    color: var(--text-color);
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+
+.footer ul li a:hover {
+    border-bottom: 3px solid var(--main-color);
+}
+
+.footer .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 12px;
+    color: var(--text-color);
+}
+
+.footer .btn-top {
+    position: absolute;
+    top: 70px;
+    right: 10px;
+    padding: 12px 20px;
+    background: #042437;
+    color: #CBECDC;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.section-slide {
+
+    /*display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;*/
+
+}
+/* SLIDER -------------------------------------------------------------------------------------- */
+
+.slideshow-container {
+    position: relative;
+    max-width: 800px;
+    width: 100%;
+    overflow: hidden;
+    margin: 1rem auto;
+  }
+  
+  .slideshow {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .slide {
+    flex: 0 0 100%;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Botões de navegação */
+  .prev,
+  .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1.5em;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
+  
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+/* MEDIA QUERY - LAYOUTS RESPONSIVOS ----------------------------------------------------------- */
+
+@media(max-width:1200px) {
+
+}
+
+@media(max-width:991px) {
+
+    header {
+        padding: 2rem 3%;
+    }
+
+    section {
+        padding: 2rem 3% 2rem;
+    }
+
+    .acomodacoes {
+        padding-bottom: 7rem;
+    }
+
+    .footer {
+        padding: 2rem 3%;
+    }
+
+}
+
+@media(max-width:768px) {
+
+    .cardBox-container {
+        flex-direction: column;
+
+      }
+      .cardBox-slider {
+        order: 1;
+        
+      }
+    
+      .cardBox-suite {
+        order: 2;
+
+      }
+}
