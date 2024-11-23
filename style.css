@@ -460,10 +460,9 @@ body {
 .pousada-container {
 
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row;
     justify-content: space-between;
     margin-bottom: 2rem;
-
     
 }
 .pousada-text {
