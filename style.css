@@ -460,7 +460,7 @@ body {
 .pousada-container {
 
     display: flex;
-    flex-flow: row;
+    flex-flow: row nowrap;
     justify-content: space-between;
     margin-bottom: 2rem;
     
@@ -700,5 +700,19 @@ body {
         width: 360px;
     }
 
+    .pousada-container {
+        flex-flow: row wrap;
+     
+    }
+    .pousada-text {
+        margin-bottom: 1rem;
+    }
+    .prev,
+    .next {
+
+      top: 30%;
+      transform: translateY(-30%);
+
+    }
 
 }
