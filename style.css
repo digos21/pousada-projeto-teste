@@ -118,7 +118,7 @@ body {
 .home {
     width: 100%;
     min-height: 100vh;
-    padding: 4rem 8% 2rem;
+    padding: 5rem 8% 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -156,8 +156,8 @@ body {
 }
 
 .home-img img {
-    max-width: 530px;
-    height: auto;
+    max-width: 500px;
+    max-height: 500px;
     border-radius: 50%;
     background-color: var(--main-color);
     box-shadow: 0 0 25px var(--main-color);
@@ -458,9 +458,79 @@ body {
 }
 
 .pousada-container {
+
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    margin-bottom: 2rem;
+
+    
+}
+.pousada-text {
+    /*background: #7cbee4;*/
+    /*max-width: 500px;*/
+    width: 50%;
+}
+.pousada-text ul li {
+    list-style: none;
+}
+.pousada-slideshow-container {
+    
+    position: relative;
+    max-width: 550px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+
+
+}
+
+.pousada-slideshow {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.pousada-slide {
+    flex: 0 0 100%;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: bottom left;
+}
+
+.pousada-slide img {
+    width: 100%;
+}
+  
+  /* Botões de navegação */
+  .prev,
+  .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1.5em;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
+  
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+/*
+.pousada-container {
+
 }
 .pousada-container .pousada-card {
     width: 45%;
@@ -487,7 +557,7 @@ body {
     margin: 2rem 0 3rem;
 
 }
-
+*/
 /* POUSADA ------------------------------------------ */
 /* Rodapé --------------------------------------------------------------------------------  */
 

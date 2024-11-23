@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <title>Pousada Sol e Descanso</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#home" class="logo">
+            <img src="images/logo-branca.png" alt="">
+        </a>
+        <!--icone de hamburguer-->
+        <i class="bi bi-list" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Inicial</a>
+            <a href="#acomodacoes">Acomodações</a>
+            <a href="#pousada">Pousada</a>
+            <a href="#depoimentos">Depoimentos</a>
+            <a href="#atividades">Atividades</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+    <!-- Inicio da Section Hero -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Pousada</h3>
+            <h1>Sol e Descanso</h1>
+            <h3>Seja Bem-Vindo a nossa Pousada.</h3>
+            <p>É um imenso prazer em atender sua família, pode ter certeza
+                que iremos fazer de tudo para deixar a sua família mais a vontade
+                e se sentir em sua própria casa. Aqui você alinha a tranquilidade
+                é o conforto no atendimento, onde é encaixado um atendimento
+                diferenciado para deixar você hospede e amigo em casa</p>
+
+            <div class="social-icons">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-whatsapp"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" 
+                    viewBox="0 0 1333.31 1333.31" 
+                    shape-rendering="geometricPrecision" 
+                    text-rendering="geometricPrecision" 
+                    image-rendering="optimizeQuality" 
+                    fill-rule="evenodd" 
+                    clip-rule="evenodd">
+                    <g fill-rule="nonzero">
+                        <circle cx="666.66" 
+                        cy="666.66" 
+                        r="666.66" 
+                        fill="#fff"/>
+                        <path d="M1078.42 536.6l80.45-87.52h-178.4c-89.31-61.01-197.17-96.54-313.81-96.54-116.5 
+                        0-224.06 35.61-313.22 96.54H174.6l80.44 87.52c-49.31 44.99-80.22 109.8-80.22 181.75 
+                        0 135.79 110.09 245.88 245.88 245.88 64.51 0 123.27-24.88 167.14-65.55l78.81 85.81 
+                        78.81-85.73c43.87 40.67 102.57 65.47 167.07 65.47 135.79 0 246.03-110.09 
+                        246.03-245.88.07-72.03-30.84-136.83-80.15-181.75zM420.77 884.75c-91.92 
+                        0-166.4-74.48-166.4-166.4s74.49-166.4 166.4-166.4c91.92 0 166.4 74.49 166.4 
+                        166.4 0 91.91-74.49 166.4-166.4 166.4zm245.96-171.24c0-109.5-79.63-203.5-184.73-243.65 
+                        56.84-23.76 119.18-36.94 184.66-36.94 65.47 0 127.89 13.18 184.73 36.94-105.02 40.23-184.65 
+                        134.15-184.65 243.65zm245.88 171.24c-91.92 0-166.4-74.48-166.4-166.4s74.49-166.4 166.4-166.4c91.92 
+                        0 166.4 74.49 166.4 166.4 0 91.91-74.49 166.4-166.4 166.4zm0-253.7c-48.2 0-87.23 39.03-87.23 87.23 
+                        0 48.19 39.03 87.22 87.23 87.22 48.19 0 87.22-39.03 87.22-87.22 0-48.12-39.03-87.23-87.22-87.23zM508 
+                        718.35c0 48.19-39.03 87.22-87.23 87.22-48.19 0-87.22-39.03-87.22-87.22 0-48.2 39.03-87.23 87.22-87.23 
+                        48.19-.07 87.23 39.03 87.23 87.23z" fill="#042437"/>
+                    </g>
+                </svg>
+            </a><!-- trocar pelo tripadvisor -->
+            </div>
+            <a href="#" class="btn">Reserve Já</a>
+        </div>
+        <div class="home-img">
+            <img src="images/img-suite.png" alt="">
+        </div>
+    </section>
+    <!-- Final da Section Hero -->
+
+    <section class="acomodacoes" id="acomodacoes">
+
+        <div class="container">
+
+            <header class="section-header">
+                <div class="header-text">
+
+                    <h2>Acomodações</h2>
+                </div>
+                <div class="navigation-btns">
+                    <i class="fas fa-arrow-left" id="prev_btn"></i>
+                    <i class="fas fa-arrow-right" id="next_btn"></i>
+                </div>
+            </header>
+        
+
+            <div class="slider">
+                
+                <div class="slider-item">
+                    <div class="cardBox-img">
+                        <a href="suites.html">
+                          <img src="https://img.freepik.com/fotos-premium/bela-paisagem-natural-de-um-grande-barco-de-viagem-navegando-no-mar-com-o-ceu-colorido-durante-o-fundo-do-por-do-sol-na-tailandia-widescreen-16-9_536080-1232.jpg?w=826">
+                        </a>
+                      </div>
+                      <div class="cardBox-text">
+                        <h2>HOSPEDAGEM</h2>
+                        <h1>Quarto Simples</h1>
+                        <p>Tamanho: 21 m²</p>
+                        <p>Cama: 1 Pessoa</p>
+                    
+                        <p><span><a href="#">9.4</a></span>★★★★</p>
+                        <div class="cardBox-text-icons">
+                          <img src="https://cdn-icons-png.flaticon.com/512/31/31106.png">
+                          <img src="https://cdn-icons-png.flaticon.com/512/31/31106.png">
+                          <img src="https://cdn-icons-png.flaticon.com/512/31/31106.png">
+                          <img src="https://cdn-icons-png.flaticon.com/512/31/31106.png">
+                        </div>
+                        <p>Descubra o refúgio perfeito em Arraial do Cabo para famílias e casais, combinando conforto, beleza natural e tarifas imperdíveis!</p>
+                    
+                      </div>
+                    
+                      <div class="cardBox-btn">
+                        <a href="#">Reserve Já</a>
+                      </div>
+            
+                </div>
+                <div class="slider-item">
+                    <div class="cardBox-img">
+                        <a href="suites.html">
+                          <img src="https://img.freepik.com/fotos-premium/bela-paisagem-natural-de-um-grande-barco-de-viagem-navegando-no-mar-com-o-ceu-colorido-durante-o-fundo-do-por-do-sol-na-tailandia-widescreen-16-9_536080-1232.jpg?w=826">
+                        </a>
+                      </div>
+                      <div class="cardBox-text">
+                        <h2>HOSPEDAGEM</h2>
+                        <h1>Quarto Duplo</h1>
+                        <p>Tamanho: 21 m²</p>
+                        <p>Cama: 1 Casal</p>
+                    
+                        <p><span><a href="#">9.4</a></span>★★★★</p>
+                        <div class="cardBox-text-icons">
+                          <img src="https://cdn-icons-png.flaticon.com/512/31/31106.png">
+                          <img src="https://cdn-icons-png.flaticon.com/512/31/31106.png">
+                          <img src="https://cdn-icons-png.flaticon.com/512/31/31106.png">
+                          <img src="https://cdn-icons-png.flaticon.com/512/31/31106.png">
+                        </div>
+                        <p>Descubra o refúgio perfeito em Arraial do Cabo para famílias e casais, combinando conforto, beleza natural e tarifas imperdíveis!</p>
+                    
+                      </div>
+                    
+                      <div class="cardBox-btn">
+                        <a href="#">Reserve Já</a>
+                      </div>
+                </div>
+                <div class="slider-item">
+                    <div class="cardBox-img">
+                        <a href="suites.html">
+                          <img src="https://img.freepik.com/fotos-premium/bela-paisagem-natural-de-um-grande-barco-de-viagem-navegando-no-mar-com-o-ceu-colorido-durante-o-fundo-do-por-do-sol-na-tailandia-widescreen-16-9_536080-1232.jpg?w=826">
+                        </a>
+                      </div>
+                      <div class="cardBox-text">
+                        <h2>HOSPEDAGEM</h2>
+                        <h1>Quarto Duplo</h1>
+                        <p>Tamanho: 21 m²</p>
+                        <p>Cama: 1 Casal</p>
+                    
+                        <p><span><a href="#">9.4</a></span>★★★★</p>
+                        <div class="cardBox-text-icons">
+                          <img src="https://cdn-icons-png.flaticon.com/512/31/31106.png">
+                          <img src="https://cdn-icons-png.flaticon.com/512/31/31106.png">
+                          <img src="https://cdn-icons-png.flaticon.com/512/31/31106.png">
+                          <img src="https://cdn-icons-png.flaticon.com/512/31/31106.png">
+                        </div>
+                        <p>Descubra o refúgio perfeito em Arraial do Cabo para famílias e casais, combinando conforto, beleza natural e tarifas imperdíveis!</p>
+                    
+                      </div>
+                    
+                      <div class="cardBox-btn">
+                        <a href="#">Reserve Já</a>
+                      </div>
+                </div>
+                <div class="slider-item">
+                    <div class="cardBox-img">
+                        <a href="suites.html">
+                          <img src="https://img.freepik.com/fotos-premium/bela-paisagem-natural-de-um-grande-barco-de-viagem-navegando-no-mar-com-o-ceu-colorido-durante-o-fundo-do-por-do-sol-na-tailandia-widescreen-16-9_536080-1232.jpg?w=826">
+                        </a>
+                      </div>
+                      <div class="cardBox-text">
+                        <h2>HOSPEDAGEM</h2>
+                        <h1>Quarto Triplo</h1>
+                        <p>Tamanho: 21 m²</p>
+                        <p>Camas: 1 Casal + 1 Criança</p>
+                    
+                        <p><span><a href="#">9.4</a></span>★★★★</p>
+                        <div class="cardBox-text-icons">
+                          <img src="https://cdn-icons-png.flaticon.com/512/31/31106.png">
+                          <img src="https://cdn-icons-png.flaticon.com/512/31/31106.png">
+                          <img src="https://cdn-icons-png.flaticon.com/512/31/31106.png">
+                          <img src="https://cdn-icons-png.flaticon.com/512/31/31106.png">
+                        </div>
+                        <p>Descubra o refúgio perfeito em Arraial do Cabo para famílias e casais, combinando conforto, beleza natural e tarifas imperdíveis!</p>
+                    
+                      </div>
+                    
+                      <div class="cardBox-btn">
+                        <a href="#">Reserve Já</a>
+                      </div>
+                </div>
+                <div class="slider-item">
+                    <div class="cardBox-img">
+                        <a href="suites.html">
+                          <img src="https://img.freepik.com/fotos-premium/bela-paisagem-natural-de-um-grande-barco-de-viagem-navegando-no-mar-com-o-ceu-colorido-durante-o-fundo-do-por-do-sol-na-tailandia-widescreen-16-9_536080-1232.jpg?w=826">
+                        </a>
+                      </div>
+                      <div class="cardBox-text">
+                        <h2>HOSPEDAGEM</h2>
+                        <h1>Quarto Triplo</h1>
+                        <p>Tamanho: 21 m²</p>
+                        <p>Camas: 1 Casal + 1 Criança</p>
+                    
+                        <p><span><a href="#">9.4</a></span>★★★★</p>
+                        <div class="cardBox-text-icons">
+                          <img src="https://cdn-icons-png.flaticon.com/512/31/31106.png">
+                          <img src="https://cdn-icons-png.flaticon.com/512/31/31106.png">
+                          <img src="https://cdn-icons-png.flaticon.com/512/31/31106.png">
+                          <img src="https://cdn-icons-png.flaticon.com/512/31/31106.png">
+                        </div>
+                        <p>Descubra o refúgio perfeito em Arraial do Cabo para famílias e casais, combinando conforto, beleza natural e tarifas imperdíveis!</p>
+                    
+                      </div>
+                    
+                      <div class="cardBox-btn">
+                        <a href="#">Reserve Já</a>
+                      </div>
+                </div>
+                <div class="slider-item">
+                    <div class="cardBox-img">
+                        <a href="suites.html">
+                          <img src="https://img.freepik.com/fotos-premium/bela-paisagem-natural-de-um-grande-barco-de-viagem-navegando-no-mar-com-o-ceu-colorido-durante-o-fundo-do-por-do-sol-na-tailandia-widescreen-16-9_536080-1232.jpg?w=826">
+                        </a>
+                      </div>
+                      <div class="cardBox-text">
+                        <h2>HOSPEDAGEM</h2>
+                        <h1>Quarto Quadruplo</h1>
+                        <p>Tamanho: 21 m²</p>
+                        <p>Camas: 4 pessoas</p>
+                    
+                        <p><span><a href="#">9.4</a></span>★★★★</p>
+                        <div class="cardBox-text-icons">
+                          <img src="https://cdn-icons-png.flaticon.com/512/31/31106.png">
+                          <img src="https://cdn-icons-png.flaticon.com/512/31/31106.png">
+                          <img src="https://cdn-icons-png.flaticon.com/512/31/31106.png">
+                          <img src="https://cdn-icons-png.flaticon.com/512/31/31106.png">
+                        </div>
+                        <p>Descubra o refúgio perfeito em Arraial do Cabo para famílias e casais, combinando conforto, beleza natural e tarifas imperdíveis!</p>
+                    
+                      </div>
+                    
+                      <div class="cardBox-btn">
+                        <a href="#">Reserve Já</a>
+                      </div>
+                </div>
+                <div class="slider-item">
+                    <div class="cardBox-img">
+                        <a href="suites.html">
+                          <img src="https://img.freepik.com/fotos-premium/bela-paisagem-natural-de-um-grande-barco-de-viagem-navegando-no-mar-com-o-ceu-colorido-durante-o-fundo-do-por-do-sol-na-tailandia-widescreen-16-9_536080-1232.jpg?w=826">
+                        </a>
+                      </div>
+                      <div class="cardBox-text">
+                        <h2>HOSPEDAGEM</h2>
+                        <h1>Quarto Quintuplo</h1>
+                        <p>Tamanho: 21 m²</p>
+                        <p>Camas: 5 pessoas</p>
+                    
+                        <p><span><a href="#">9.4</a></span>★★★★</p>
+                        <div class="cardBox-text-icons">
+                          <img src="https://cdn-icons-png.flaticon.com/512/31/31106.png">
+                          <img src="https://cdn-icons-png.flaticon.com/512/31/31106.png">
+                          <img src="https://cdn-icons-png.flaticon.com/512/31/31106.png">
+                          <img src="https://cdn-icons-png.flaticon.com/512/31/31106.png">
+                        </div>
+                        <p>Descubra o refúgio perfeito em Arraial do Cabo para famílias e casais, combinando conforto, beleza natural e tarifas imperdíveis!</p>
+                    
+                      </div>
+                    
+                      <div class="cardBox-btn">
+                        <a href="#">Reserve Já</a>
+                      </div>
+                </div>
+                <div class="slider-item">
+                    <div class="cardBox-img">
+                        <a href="suites.html">
+                          <img src="https://img.freepik.com/fotos-premium/bela-paisagem-natural-de-um-grande-barco-de-viagem-navegando-no-mar-com-o-ceu-colorido-durante-o-fundo-do-por-do-sol-na-tailandia-widescreen-16-9_536080-1232.jpg?w=826">
+                        </a>
+                      </div>
+                      <div class="cardBox-text">
+                        <h2>HOSPEDAGEM</h2>
+                        <h1>Quarto Sextuplo</h1>
+                        <p>Tamanho: 21 m²</p>
+                        <p>Camas: 6 pessoas</p>
+                    
+                        <p><span><a href="#">9.4</a></span>★★★★</p>
+                        <div class="cardBox-text-icons">
+                          <img src="https://cdn-icons-png.flaticon.com/512/31/31106.png">
+                          <img src="https://cdn-icons-png.flaticon.com/512/31/31106.png">
+                          <img src="https://cdn-icons-png.flaticon.com/512/31/31106.png">
+                          <img src="https://cdn-icons-png.flaticon.com/512/31/31106.png">
+                        </div>
+                        <p>Descubra o refúgio perfeito em Arraial do Cabo para famílias e casais, combinando conforto, beleza natural e tarifas imperdíveis!</p>
+                    
+                      </div>
+                    
+                      <div class="cardBox-btn">
+                        <a href="#">Reserve Já</a>
+                      </div>
+                </div>
+            </div>
+        </div>
+
+        </div> -->
+    </section>
+
+    <section class="pousada" id="pousada">
+        <h2 class="heading">Pousada</h2>
+
+        <!--<div class="pousada-img">
+            <img src="images/img-frente.png" alt="">
+        </div>
+        <div class="pousada-content">
+            
+            <h3>Um pouco mais sobre nossa pousada...</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet purus sit amet lectus varius
+                auctor eget condimentum velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porta,
+                mauris vitae congue faucibus, sem lorem blandit libero.</p>
+            <a href="#" class="btn">Reserve Já</a>-->
+
+            <div class="card-container">
+                <div class="card-box">
+                  
+                    <img src="https://img.freepik.com/fotos-premium/bela-paisagem-natural-de-um-grande-barco-de-viagem-navegando-no-mar-com-o-ceu-colorido-durante-o-fundo-do-por-do-sol-na-tailandia-widescreen-16-9_536080-1232.jpg?w=826">
+
+                  <h4>Café da Manhã</h4>
+                </div>
+            
+                <div class="card-box">
+
+                    <img src="https://img.freepik.com/fotos-premium/bela-paisagem-natural-de-um-grande-barco-de-viagem-navegando-no-mar-com-o-ceu-colorido-durante-o-fundo-do-por-do-sol-na-tailandia-widescreen-16-9_536080-1232.jpg?w=826">
+
+                  <h4>Ambiente agradável</h4>
+                </div>
+                <div class="card-box">
+
+                    <img src="https://img.freepik.com/fotos-premium/bela-paisagem-natural-de-um-grande-barco-de-viagem-navegando-no-mar-com-o-ceu-colorido-durante-o-fundo-do-por-do-sol-na-tailandia-widescreen-16-9_536080-1232.jpg?w=826">
+
+                  <h4>Wi-fi gratuito</h4>
+                </div>
+                <div class="card-box">
+
+                    <img src="https://img.freepik.com/fotos-premium/bela-paisagem-natural-de-um-grande-barco-de-viagem-navegando-no-mar-com-o-ceu-colorido-durante-o-fundo-do-por-do-sol-na-tailandia-widescreen-16-9_536080-1232.jpg?w=826">
+
+                  <h4>Alimentação</h4>
+                </div>
+            
+              </div>
+
+        </div>
+    </section>
+    <section id="depoimentos" class="depoimentos"> <!-- depoimentos-->
+        <h2 class="heading">Depoimentos</h2>
+        <div class="depoimentos-container">
+
+
+            <div class="depoimentos-box">
+                <div class="card-depoimento-img">
+                    <img src="images/people-01.jpg" alt="">
+                </div>
+                <h4>ivocamararj</h4>
+            <p><span>"</span>Lugar realmente é maravilhoso! Pousada Sol e Descanso aconchegante, 
+                limpinha, cheirosinha, confortável e os donos, Guido esposa e filho, 
+                muito atenciosos e dispostos a dar dicas incríveis. Passamos dias maravilhosos e 
+                inesquecíveis.<span>"</span></p>
+                
+            </div>
+            <div class="depoimentos-box">
+                <div class="card-depoimento-img">
+                    <img src="images/people-07.jpg" alt="">
+                </div>
+                <h4>ivocamararj</h4>
+            <p><span>"</span>Lugar realmente é maravilhoso! Pousada Sol e Descanso aconchegante, 
+                limpinha, cheirosinha, confortável e os donos, Guido esposa e filho, 
+                muito atenciosos e dispostos a dar dicas incríveis. Passamos dias maravilhosos e 
+                inesquecíveis.<span>"</span></p>
+                
+            </div>
+            <div class="depoimentos-box">
+                <div class="card-depoimento-img">
+                    <img src="images/people-03.jpg" alt="">
+                </div>
+                <h4>ivocamararj</h4>
+            <p><span>"</span>Lugar realmente é maravilhoso! Pousada Sol e Descanso aconchegante, 
+                limpinha, cheirosinha, confortável e os donos, Guido esposa e filho, 
+                muito atenciosos e dispostos a dar dicas incríveis. Passamos dias maravilhosos e 
+                inesquecíveis.<span>"</span></p>
+                
+            </div>
+            <div class="depoimentos-box">
+                <div class="card-depoimento-img">
+                    <img src="images/people-04.jpg" alt="">
+                </div>
+                <h4>ivocamararj</h4>
+            <p><span>"</span>Lugar realmente é maravilhoso! Pousada Sol e Descanso aconchegante, 
+                limpinha, cheirosinha, confortável e os donos, Guido esposa e filho, 
+                muito atenciosos e dispostos a dar dicas incríveis. Passamos dias maravilhosos e 
+                inesquecíveis.<span>"</span></p>
+                
+            </div>
+
+        </div>
+    </section>
+    <section class="atividades" id="atividades"> <!--atividades-->
+        <div class="atividades-container">
+            <!--   === Section Header Starts ===   -->
+            <header class="atividades-section-header">
+                <div class="atividades-header-text">
+
+                    <h2>Atividades e Passeios</h2>
+                </div>
+                <div class="navigation-btns">
+                    <i class="fas fa-arrow-left" id="left_btn"></i>
+                    <i class="fas fa-arrow-right" id="right_btn"></i>
+                </div>
+            </header>
+        
+            <!--   === Slider Starts ===   -->
+            <div class="atividades-slider">
+                
+                <div class="atividades-slider-item">
+                    <p>1</p>
+            
+                </div>
+                <div class="atividades-slider-item">
+                    <p>2</p>
+            
+                </div>
+                <div class="atividades-slider-item">
+                    <p>3</p>
+            
+                </div>
+                <div class="atividades-slider-item">
+                    <p>4</p>
+            
+                </div>
+                <div class="atividades-slider-item">
+                    <p>5</p>
+            
+                </div>
+                <div class="atividades-slider-item">
+                    <p>6</p>
+            
+                </div>
+                <div class="atividades-slider-item">
+                    <p>7</p>
+            
+                </div>
+                <div class="atividades-slider-item">
+                    <p>8</p>
+            
+                </div>
+            </div>
+        </div>
+       <!-- <h2 class="heading">Atividades</h2>
+        <div class="atividades-container">
+            <div class="atividades-box">
+                <div class="atividades-img">
+                    <img src="images/paisagem.jpg" alt="">
+                </div>
+
+                <h3>Prainhas do Pontal do Atalaia</h3>
+
+                <p>O Pontal do Atalaia é a praia mais bonita de Arraial,
+                    descendo aquela escada de madeira, você já depara
+                    com o mar azul turquesa, areia branca é muito bonito.
+                    Fica a 10 minutos.</p>
+                <div class="atividades-container-btn">
+                    <p><a href="#" class="btn">Saiba Mais</a></p>
+                </div>
+
+
+            </div>
+
+            <div class="atividades-box">
+                <div class="atividades-img">
+                    <img src="images/paisagem.jpg" alt="">
+                </div>
+
+                <h3>Praia dos Anjos</h3>
+                <p>Se você pretende conhecer as principais atrações de
+                    Arraial do Cabo a Praia dos Anjos é o melhor lugar
+                    para se hospedar, já que ela tem a melhor estrutura
+                    turística e o Cais da onde saem os táxis-boats e
+                    passeios de barco. </p>
+                <div class="atividades-container-btn">
+                    <p><a href="#" class="btn">Saiba Mais</a></p>
+                </div>
+            </div>
+
+
+            <div class="atividades-box">
+                <div class="atividades-img">
+                    <img src="images/paisagem.jpg" alt="">
+                </div>
+                <h3>Praia do Forno</h3>
+                <p>Escondida entre os mais belos exemplares da natureza,
+                    a Praia do Forno deve muito do seu charme ao fato de
+                    ser acessada unicamente por trilha, ou barco.
+                    Muito bem localizada por diversas placas, a trilha
+                    tem início na Praia dos Anjos.</p>
+                <div class="atividades-container-btn">
+                    <p><a href="#" class="btn">Saiba Mais</a></p>
+                </div>
+            </div>
+            <div class="atividades-box">
+                <div class="atividades-img">
+                    <img src="images/paisagem.jpg" alt="">
+                </div>
+                <h3>Atividade 4</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet purus sit amet lectus varius
+                    auctor eget condimentum velit. </p>
+                <div class="atividades-container-btn">
+                    <p><a href="#" class="btn">Saiba Mais</a></p>
+                </div>
+            </div>
+            <div class="atividades-box">
+                <div class="atividades-img">
+                    <img src="images/paisagem.jpg" alt="">
+                </div>
+                <h3>Atividade 5</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet purus sit amet lectus varius
+                    auctor eget condimentum velit. </p>
+                <div class="atividades-container-btn">
+                    <p><a href="#" class="btn">Saiba Mais</a></p>
+                </div>
+            </div>
+            <div class="atividades-box">
+                <div class="atividades-img">
+                    <img src="images/paisagem.jpg" alt="">
+                </div>
+                <h3>Atividade 6</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet purus sit amet lectus varius
+                    auctor eget condimentum velit. </p>
+                <div class="atividades-container-btn">
+                    <p><a href="#" class="btn">Saiba Mais</a></p>
+                </div>
+            </div>
+        </div> -->
+
+    </section>
+
+    <section class="contato" id="contato">
+        <h2 class="heading">Contato</h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Phone Number">
+                <input type="text" placeholder="Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"> </textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <section class="localizacao"> <!-- localizacao-->
+        <h2 class="heading">Localização</h2>
+        <div class="localizacao-container">
+
+            <div class="localizacao-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d772.235987472655!2d-42.023170005635976!3d-22.972530268106667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x97199cdb217f35%3A0xc423684c249cdb05!2sPousada%20Sol%20e%20Descanso!5e0!3m2!1sen!2sbr!4v1730764054416!5m2!1sen!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="localizacao-box">
+
+                <h3>Fale Conosco</h3>
+
+                <h4>Whatsapp</h4>
+                <p>+55(22)99804-0507</p>
+
+                <h4>Telefone</h4>
+                <p>+55(22)99804-0507</p>
+
+                <h4>Email</h4>
+                <p>pousadasoledescanso@gmail.com</p>
+ 
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="social">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-whatsapp"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+        </div>
+        <ul class="list">
+            <li><a href="#home">Inicial</a></li>
+            <li><a href="#acomodacoes">Acomodações</a></li>
+            <li><a href="#pousada">Pousada</a> </li>
+            <li><a href="#atividades">Atividades</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+
+        <!--
+
+        <div class="fale-conosco">
+
+        </div>
+        <div class="endereco">
+
+        </div>
+
+        -->
+
+        <p class="copyright">@ 2024 Pousada Sol e Descanso | All rights Reserved</p>
+
+        <a href="#home" class="btn-top">+</a>
+
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/52262753f8.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

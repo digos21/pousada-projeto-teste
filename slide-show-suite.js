@@ -1,10 +1,10 @@
 let currentIndex = 0;
-const slides = document.querySelectorAll(".pousada-slide");
+const slides = document.querySelectorAll(".slide");
 
 function updateSlidePosition() {
   const offset = -currentIndex * 100;
   document.querySelector(
-    ".pousada-slideshow"
+    ".slideshow"
   ).style.transform = `translateX(${offset}%)`;
 }
 
