@@ -445,7 +445,7 @@ body {
     width: 100%;
     height: auto;
     padding: 5rem 8% 0px;
-    background: var(--second-bg-color);
+
 }
 
 .pousada h2 {
@@ -558,6 +558,79 @@ body {
 }
 */
 /* POUSADA ------------------------------------------ */
+
+/* Depoimentos ------------------------------------------------------------------------------- */
+
+.depoimentos {
+    width: 100%;
+    height: auto;
+    padding: 5rem 8% 0px;
+
+}
+
+.depoimentos h2 {
+    margin-bottom: 5rem;
+}
+
+.depoimentos-container {
+    border: 2px solid #042437;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    
+}
+
+.depoimentos-box {
+
+    width: 600px;
+    height: auto;
+    padding: 2rem;
+    border-radius: 2rem;
+    border: 0.2rem solid var(--main-color);
+    cursor: pointer;
+    transition: 0.5s ease;
+    border: 1px solid;
+}
+
+
+.depoimentos-container .depoimentos-box:hover {
+    border-color: var(--text-color);
+    transform: translateY(-5px);
+}
+
+
+.depoimentos-box h4 {
+    font-size: 2.2rem;
+    text-align: center;
+
+}
+
+.depoimentos-box p {
+    
+    font-size: 1.2rem;
+    text-align: center;
+
+}
+
+.card-depoimento-img {
+
+    position: relative;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.card-depoimento-img img {
+
+position: absolute;
+top: -6px;
+    width: 100%;
+}
+
 /* Rodapé --------------------------------------------------------------------------------  */
 
 .footer {
