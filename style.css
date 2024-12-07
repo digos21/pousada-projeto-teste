@@ -1042,6 +1042,11 @@ body {
         width: 360px;
     }
 
+    .card-container {
+
+        max-width: 350px;
+
+    }
     .pousada-container {
         flex-flow: row wrap;
 
@@ -1049,6 +1054,7 @@ body {
 
     .pousada-text {
         margin-bottom: 1rem;
+        width: 100%;
     }
 
     .prev,
@@ -1057,6 +1063,28 @@ body {
         top: 30%;
         transform: translateY(-30%);
 
+    }
+    .depoimentos-tools {
+
+        height: 450px;
+    
+    }
+    .depoimentos-container { 
+        background: #ccc;
+    }
+    .depoimentos-container .slide {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /*background: #5b5c5c;*/
+        padding: 0;
+    }
+    .depoimentos i {
+        font-size: 2rem;
+
+    }
+    #swiper-btn-next,#swiper-btn-prev {
+        display: none;
     }
 
 }
