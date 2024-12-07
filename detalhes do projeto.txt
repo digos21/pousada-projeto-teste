@@ -1,0 +1,4 @@
+DETALHES A RESOLVER DO PROJETO 
+
+- MENU NAV MOBILE = ao clicar e ser direcionado ao link do menu fechar o toggle do menu, mesma ação quando clica no link do hamburguer.
+- FOOTER = TIRAR OS LINKS NO MOBILE * feito
