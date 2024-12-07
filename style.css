@@ -1024,7 +1024,7 @@ body {
     }
 
     .home {
-        flex-direction: column;
+        flex-direction: column-reverse;
         padding: 5rem 8% 0;
     }
 
@@ -1084,6 +1084,10 @@ body {
 
     }
     #swiper-btn-next,#swiper-btn-prev {
+        display: none;
+    }
+
+    .footer .list {
         display: none;
     }
 
