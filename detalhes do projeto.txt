@@ -1,4 +1,14 @@
 DETALHES A RESOLVER DO PROJETO 
+- MENU NAVBAR - Verificar bug no menu o que está acontecendo mediante aos links *
 
-- MENU NAV MOBILE = ao clicar e ser direcionado ao link do menu fechar o toggle do menu, mesma ação quando clica no link do hamburguer.
+- MENU NAV MOBILE = ao clicar e ser direcionado ao link do menu fechar o toggle do menu, mesma ação quando clica no link do hamburguer. * código pronto para implementar
+
 - FOOTER = TIRAR OS LINKS NO MOBILE * feito
+
+- SUITES = Adicionar slideshow para cada quarto, adicionar máximo de 3 imagens para não pesar o site.
+
+- como faço para colocar todas as funções de javascript no mesmo documento.
+
+- como transformar tudo em javascript em funções que podem ser chamadas de modo variável dentro do site.
+
+

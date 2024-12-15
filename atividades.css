@@ -178,7 +178,7 @@ section {
     max-width: 45%;
     height: 335px;
     overflow: hidden;
-    border: 1px solid #5b5c5c;
+
   }
   .cardBox-slider img {
     width: 100%;
@@ -188,7 +188,7 @@ section {
   .cardBox-suite {
     max-width: 50%;
     height: 335px;
-    border: 1px solid #5b5c5c;
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -381,11 +381,15 @@ section {
       }
       .cardBox-slider {
         order: 1;
+        max-width: 100%;
+
         
       }
     
       .cardBox-suite {
         order: 2;
-
+        max-width: 100%;
+        height: auto;
       }
+
 }

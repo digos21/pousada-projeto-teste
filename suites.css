@@ -175,14 +175,21 @@ section {
 
   .cardBox-slider {
     max-width: 600px;
+
+    
   }
   .cardBox-slider img {
     width: 100%;
+    height: 100%;
   }
 
   .cardBox-suite {
     max-width: 600px;
+    display: flex;
+    flex-flow: column nowrap;
+    
   }
+
   .cardBox-suite h3 {
     margin-bottom: 0.5rem;
     border-bottom: 2px solid var(--bg-principal);
@@ -196,11 +203,14 @@ section {
   }
   .cardBox-suite ul {
     margin-bottom: 1rem;
+    flex-grow: 1;
   }
   .cardBox-suite li {
     list-style: none;
+  }
 
-
+  .cardBox-suite a {
+    align-self: flex-start;
   }
 
 /* Rodapé --------------------------------------------------------------------------------  */
