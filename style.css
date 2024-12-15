@@ -772,11 +772,16 @@ body {
 }
 
 .slider-item .cardBox-img {
+    position: relative;
     max-width: 100%;
+
 }
 
 .slider-item .cardBox-img img {
+    position: absolute;
+    top: -30px;
     width: 100%;
+    object-fit: contain;
 }
 
 .saiba-mais {

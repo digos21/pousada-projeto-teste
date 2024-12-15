@@ -219,6 +219,65 @@ section {
 
   }
 
+  
+.pousada-slideshow-container {
+
+  position: relative;
+  max-width: 550px;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+
+
+}
+
+.pousada-slideshow {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.pousada-slide {
+  flex: 0 0 100%;
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: bottom left;
+  border: 1px solid red;
+}
+
+.pousada-slide img {
+  width: 100%;
+}
+
+/* Botões de navegação */
+.prev,
+.next {
+  position: absolute;
+  top: 25%;
+  transform: translateY(-25%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 1.5em;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+
 /* Rodapé --------------------------------------------------------------------------------  */
 .footer {
 
